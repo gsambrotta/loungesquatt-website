@@ -4,7 +4,7 @@ stages:
 deploy_staging:
 stage: deploy
 script:
-- cd /var/www/htdocs/wp-content/themes/your-theme
+- cd /var/www/htdocs/new-staging
 - git pull
 only:
 - develop
@@ -14,7 +14,7 @@ tags:
 deploy_production:
 stage: deploy
 script:
-- cd /var/www/htdocs/wp-content/themes/your-theme
+- cd /var/www/htdocs/new
 - git pull
 only:
 - master
