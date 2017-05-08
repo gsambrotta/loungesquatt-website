@@ -19,12 +19,12 @@
  */
 
 // Custom Settings to tell WP Core is another folder (done by gsambrotta)
-define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . '/wordpress');
-define('WP_HOME',    'http://' . $_SERVER['SERVER_NAME']);
+define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . ':8888' . '/wp-core');
+define('WP_HOME',    'http://' . $_SERVER['SERVER_NAME'] . ':8888');
 
 // Custom Settings to tell WP content is another directory path (done by gsambrotta)
-define('WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/wp-content');
-define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/wp-content');
+define('WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/content');
+define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . ':8888' . '/content');
 
 // Tells what is the default theme
 define('WP_DEFAULT_THEME', 'twentyseventeen');
