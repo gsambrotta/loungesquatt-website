@@ -26,3 +26,4 @@ Custom files and directories are in `content/`
 
 ## Deploy
 deploy is automatic trhough Github
+
