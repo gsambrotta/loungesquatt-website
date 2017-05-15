@@ -13,6 +13,10 @@
 /wp-config.php
 *.sql
 
+wp-config.php
+content/upgrade
+content/uploads
+
 # Hidden files
 *.DS_Store
 *Thumbs.db

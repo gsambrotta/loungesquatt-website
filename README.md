@@ -25,5 +25,4 @@ Custom files and directories are in `content/`
 
 
 ## Deploy
-deploy is automatic done by GitLab
-http://kanec.co.uk/2016/06/29/using-gitlab-ci-to-deploy-wordpress/
+deploy is automatic trhough Github

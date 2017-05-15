@@ -32,7 +32,7 @@ define('WP_DEFAULT_THEME', 'twentyseventeen');
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'loungeSquatt_db');
+define('DB_NAME', 'your_db_here');
 
 /** MySQL database username */
 define('DB_USER', 'root');
